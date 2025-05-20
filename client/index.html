@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="ChronoMap - Track your location with game-themed maps"/>
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>ChronoMap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              // GTA5 theme colors
+              gta: {
+                primary: '#00CCFF',
+                secondary: '#FF00CC',
+                dark: '#121212',
+                header: '#121212',
+                sidebar: '#1a1a1a',
+                title: '#00CCFF',
+                heading: '#00CCFF',
+                modalHeader: '#1a1a1a',
+                modalTitle: '#00CCFF'
+              },
+              // RDR2 theme colors
+              rdr2: {
+                primary: '#D2A86E',
+                secondary: '#8B4513',
+                dark: '#2C1A0E',
+                header: '#2C1A0E',
+                sidebar: '#3a2815',
+                title: '#D2A86E',
+                heading: '#D2A86E',
+                modalHeader: '#3a2815',
+                modalTitle: '#D2A86E'
+              },
+              // RDR theme colors
+              rdr: {
+                primary: '#B8860B',
+                secondary: '#704214',
+                dark: '#1E1306',
+                header: '#1E1306',
+                sidebar: '#2a1c0a',
+                title: '#B8860B',
+                heading: '#B8860B',
+                modalHeader: '#2a1c0a',
+                modalTitle: '#B8860B'
+              },
+              // Cyberpunk theme colors
+              cyberpunk: {
+                primary: '#FFFF00',
+                secondary: '#FF00FF',
+                dark: '#0F0F2D',
+                header: '#0F0F2D',
+                sidebar: '#18183D',
+                title: '#FFFF00',
+                heading: '#FFFF00',
+                modalHeader: '#18183D',
+                modalTitle: '#FFFF00'
+              },
+              // Default theme
+              blue: {
+                header: '#1E40AF',
+                sidebar: '#E2E8F0',
+                title: '#FFFFFF',
+                heading: '#1E40AF',
+                modalHeader: '#E2E8F0',
+                modalTitle: '#1E40AF'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/serviceWorker.js')
+            .then((reg) => console.log('Service worker registered:', reg))
+            .catch((err) => console.log('Service worker registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Raleway:wght@900&family=Noto+Serif:wght@700&family=Crimson+Text:ital,wght@1,700&family=Chau+Philomene+One:ital@1&family=Homemade+Apple&family=Lato:wght@900&family=Ms+Madi&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* RDR2 Theme Specific Styles */
+.theme-rdr2 {
+  --font-state: 'Merriweather', serif;
+  --font-city: 'Raleway', sans-serif;
+  --font-water-major: 'Noto Serif', serif;
+  --font-water-minor: 'Crimson Text', serif;
+  --font-station: 'Raleway', sans-serif;
+  --font-natural: 'Chau Philomene One', sans-serif;
+  --font-viewpoint: 'Homemade Apple', cursive;
+  --font-fort: 'Lato', sans-serif;
+  
+  --color-land: #DEC29B;
+  --color-ink: #40423D;
+  --color-water: #9E9985;
+  --color-contours: #C8B28D;
+  --color-pencil: #716454;
+}
+
+.theme-rdr2 .state-name {
+  font-family: var(--font-state);
+  color: var(--color-ink);
+}
+
+.theme-rdr2 .city-name {
+  font-family: var(--font-city);
+  color: var(--color-ink);
+}
+
+.theme-rdr2 .water-major {
+  font-family: var(--font-water-major);
+  color: var(--color-water);
+}
+
+.theme-rdr2 .water-minor {
+  font-family: var(--font-water-minor);
+  color: var(--color-water);
+}
+
+.theme-rdr2 .station-name {
+  font-family: var(--font-station);
+  color: var(--color-ink);
+}
+
+.theme-rdr2 .natural-feature {
+  font-family: var(--font-natural);
+  color: var(--color-pencil);
+}
+
+.theme-rdr2 .viewpoint {
+  font-family: var(--font-viewpoint);
+  color: var(--color-ink);
+}
+
+.theme-rdr2 .fort {
+  font-family: var(--font-fort);
+  color: var(--color-ink);
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

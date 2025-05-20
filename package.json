@@ -1,0 +1,23 @@
+{
+  "name": "chronomap",
+  "version": "1.0.0",
+  "description": "Location tracking application with game-themed maps",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "start": "node start.js"
+  },
+  "keywords": [
+    "maps",
+    "location",
+    "tracking",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

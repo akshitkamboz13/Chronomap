@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>RDR2 Fishing</title>
+    <g id="rdr2-fishing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="bg" fill="#9E9985" fill-opacity="0.3" cx="16" cy="16" r="15" stroke="#716454"></circle>
+        <path d="M6,14 C6,14 13,8 18,12 C23,16 26,14 26,14 L26,16 C26,16 23,18 18,14 C13,10 6,16 6,16 L6,14 Z" id="water-waves" stroke="#40423D" stroke-width="1.5"></path>
+        <path d="M26,20 C26,20 20,18 16,20 C12,22 6,20 6,20" id="water-line" stroke="#40423D" stroke-width="1.5" stroke-linecap="round"></path>
+        <path d="M13,8 L13,6 C13,6 16,5 19,6 L19,8" id="fishing-rod" stroke="#716454" stroke-width="1.5" stroke-linecap="round"></path>
+        <path d="M13,8 C13,8 16,7 19,8" id="fishing-rod-handle" stroke="#716454" stroke-width="1.5" stroke-linecap="round"></path>
+        <path d="M16,8 L16,16" id="fishing-line" stroke="#C8B28D" stroke-dasharray="1,1"></path>
+        <path d="M14,16 C14,16 16,15 18,16 C18,16 18,18 16,19 C14,18 14,16 14,16 Z" id="fish" fill="#C8B28D" stroke="#40423D" stroke-linejoin="round"></path>
+    </g>
+</svg> 

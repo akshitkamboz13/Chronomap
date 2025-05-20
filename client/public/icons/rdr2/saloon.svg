@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>RDR2 Saloon</title>
+    <g id="rdr2-saloon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="bg" fill-opacity="0.1" fill="#DEC29B" cx="16" cy="16" r="14" stroke="#716454"></circle>
+        <path d="M10,12 L22,12 L22,23 L10,23 L10,12 Z" id="building-base" fill="#C8B28D" stroke="#40423D"></path>
+        <path d="M8,12 L24,12 L22,9 L10,9 L8,12 Z" id="roof" fill="#9E9985" stroke="#40423D"></path>
+        <path d="M14,23 L14,17 L18,17 L18,23" id="door" stroke="#716454"></path>
+        <path d="M12,15 L14,15 M18,15 L20,15" id="windows" stroke="#716454"></path>
+        <circle id="glass" fill="#9E9985" cx="16" cy="7" r="2.5" stroke="#716454"></circle>
+        <path d="M13.5,8 L13.5,11 M18.5,8 L18.5,11" id="glass-stem" stroke="#716454"></path>
+        <path d="M13.5,11 C13.5,11 16,10 18.5,11" id="glass-base" stroke="#716454"></path>
+    </g>
+</svg> 
