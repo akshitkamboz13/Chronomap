@@ -1,0 +1,42 @@
+|S.No.| Date | Work Done |
+|-----|------|-----------|
+|1| Jan 15, 2025 | Set up development environment (VS Code, Git, Node.js). Created project repository on GitHub. Defined project goals and requirements for MAPPP application. |
+|2| Jan 18, 2025 | Researched mapping libraries. Compared Google Maps API, Leaflet, and Mapbox. Decided on Leaflet with React integration for its open-source flexibility. |
+|3| Jan 20, 2025 | Started learning React.js fundamentals. Created basic project structure with Vite (client folder). Experimented with component architecture. |
+|4| Jan 23, 2025 | Continued React learning with hooks (useState, useEffect). Implemented basic routing with react-router-dom v7.6.0. |
+|5| Jan 26, 2025 | Began learning Tailwind CSS for styling. Set up configuration with postcss and autoprefixer. Created basic layout components. |
+|6| Jan 30, 2025 | Started backend learning with Node.js and Express. Set up basic server structure with nodemon for development workflow. |
+|7| Feb 2, 2025 | Learned MongoDB fundamentals. Set up connection to MongoDB Atlas cloud database. Created initial schema designs. |
+|8| Feb 5, 2025 | Implemented user authentication system with JWT (jsonwebtoken). Created login/register endpoints and middleware. |
+|9| Feb 8, 2025 | Integrated react-leaflet (v5.0.0) into the frontend. Created basic map component with default view settings. |
+|10| Feb 12, 2025 | Learned about geolocation API. Implemented current location tracking feature with browser's navigator.geolocation. |
+|11| Feb 15, 2025 | Started working with Leaflet markers and custom icons. Created folder structure for different theme icons. |
+|12| Feb 18, 2025 | Implemented theme switching functionality (GTA V, RDR2, Cyberpunk) with context API for state management. |
+|13| Feb 22, 2025 | Developed location history tracking. Created MongoDB model and API endpoints for saving user locations. |
+|14| Feb 25, 2025 | Learned axios for API communication. Implemented front-end services to connect with backend APIs. |
+|15| Feb 28, 2025 | Created timeline view component to display location history with filtering options. |
+|16| Mar 3, 2025 | Fixed timeline filter issue by correctly implementing filter change handler props between TimelinePage and TimelineFilter components. |
+|17| Mar 6, 2025 | Learned about @turf/turf library for geospatial operations. Implemented distance calculation between points. |
+|18| Mar 10, 2025 | Added route visualization with leaflet-routing-machine. Created path display between sequential location points. |
+|19| Mar 13, 2025 | Implemented location pin customization with react-color color picker. Added pin label and description features. |
+|20| Mar 16, 2025 | Created settings page with user preferences (default map view, theme selection, privacy options). |
+|21| Mar 20, 2025 | Addressed scrolling issues across all pages by implementing proper container styling with overflow-auto and height calculations. |
+|22| Mar 23, 2025 | Learned about environment variables with dotenv. Set up configuration for API keys and database connection strings. |
+|23| Mar 26, 2025 | Implemented CORS handling on the backend. Added appropriate security headers and request validation middleware. |
+|24| Mar 30, 2025 | Started working on location sharing features. Created SharedLocation model in MongoDB. |
+|25| Apr 2, 2025 | Implemented API endpoints for saving and retrieving shared locations with expiration functionality. |
+|26| Apr 5, 2025 | Developed share modal component with options for link sharing and iframe embedding. |
+|27| Apr 8, 2025 | Added QR code generation for quick mobile access to shared locations. |
+|28| Apr 12, 2025 | Implemented mapbox-gl integration for alternative map rendering with enhanced visual features. |
+|29| Apr 15, 2025 | Created responsive design for mobile devices. Tested and fixed layout issues across different screen sizes. |
+|30| Apr 18, 2025 | Implemented leaflet-easybutton for improved map controls and user interaction. |
+|31| Apr 22, 2025 | Conducted unit testing for critical components and API endpoints. Fixed bugs identified during testing. |
+|32| Apr 25, 2025 | Added documentation to codebase. Created README with setup instructions and feature overview. |
+|33| Apr 28, 2025 | Optimized database queries for better performance with large location history datasets. |
+|34| May 1, 2025 | Implemented data visualization for location patterns using aggregated MongoDB queries. |
+|35| May 4, 2025 | Added offline capability with service workers for basic functionality without internet connection. |
+|36| May 7, 2025 | Deployed backend to cloud hosting (AWS/Heroku). Set up production environment variables and MongoDB connection. |
+|37| May 10, 2025 | Built production version of React frontend with Vite. Deployed to Netlify/Vercel for static hosting. |
+|38| May 13, 2025 | Conducted user testing with 5 peers. Collected feedback and created issue list for improvements. |
+|39| May 16, 2025 | Fixed critical bugs from user testing. Improved UI/UX based on feedback. Enhanced error handling. |
+|40| May 19, 2025 | Project completion. Final presentation preparation. Created slides and documentation for submission. |
